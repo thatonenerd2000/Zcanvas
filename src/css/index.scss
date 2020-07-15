@@ -36,7 +36,7 @@ body{
     left: 0;
     right: 0;
     text-align: center;
-    top:40%;
+    top:35%;
     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
     border-radius: 20px;
     color:white;
@@ -49,9 +49,18 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
-// #paletteLogo{
-//     position: absolute;
-//     height:20vh;
-//     left: 50%;
-//     transform: translateX(-50%);
-// }
+.Home_icon{
+    display: inline-block;
+    margin:5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.Home_icon_img{
+    transition:0.2s ease-in-out;
+}
+
+.Home_icon:hover .Home_icon_img{
+    transform:scale(1.1);
+}

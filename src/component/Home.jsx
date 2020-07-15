@@ -1,7 +1,10 @@
 import React from 'react'
 import "../css/index.scss"
 import Fade from 'react-reveal/Fade';
+
 import paletteLogo from "../media/paint.png"
+import painting from "../media/painting.png"
+import about from "../media/person.png"
 
 const Home = () => {
     return(
@@ -9,8 +12,13 @@ const Home = () => {
             <div id="Home_main">
                 <Fade down delay={600}>
                     <div style={{zIndex:1}} id="Home_intro">
-                        <h1>Zhilam's Canvas <img id="paletteLogo" src={paletteLogo} alt="paletteLogo_by_FreePik" style={{height:"1em"}}></img></h1>
+                        <h1>Zhilam's Canvas <img src={paletteLogo} alt="paletteLogo" title="Original designer: FreePik" style={{height:"1em"}}></img></h1>
                         <h3>"A Part, of Art"</h3>
+                        <br></br>
+                        <hr></hr>
+                        <br></br>
+                        <div className="Home_icon"><img className="Home_icon_img" style={{height:"5vh"}} src={painting} alt="gallery" title="Gallery || Icon designer: Freepik"></img><p>Gallery</p></div>
+                        <div className="Home_icon"><img className="Home_icon_img" style={{height:"5vh"}} src={about} alt="about" title="About || Icon designer: Prosymbols"></img><p>About</p></div>
                     </div>
                 </Fade>
                 <div style={{zIndex:-1}}>
