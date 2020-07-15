@@ -42,7 +42,7 @@ const Gallery = ()=>{
                 <Fade>
                     <div className="Gallery_palette" style={dynamicRender(data)}>
                         <Fade delay={500}>
-                            <img style={isMobile ? {height:"50vh",width:"50vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp1} alt="canvas_image"></img>
+                            <img style={isMobile ? {height:"50vh",width:"60vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp1} alt="canvas_image"></img>
                         </Fade>
                     </div>
                 </Fade>
@@ -55,7 +55,7 @@ const Gallery = ()=>{
                 <Fade>
                     <div className="Gallery_palette" style={dynamicRender(data)}>
                         <Fade delay={500}>
-                            <img style={isMobile ? {height:"50vh",width:"50vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp2} alt="canvas_image"></img>
+                            <img style={isMobile ? {height:"50vh",width:"60vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp2} alt="canvas_image"></img>
                         </Fade>
                     </div>
                 </Fade>
@@ -68,7 +68,7 @@ const Gallery = ()=>{
                 <Fade>
                     <div className="Gallery_palette" style={dynamicRender(data)}>
                         <Fade delay={500}>
-                            <img style={isMobile ? {height:"50vh",width:"50vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp3} alt="canvas_image"></img>
+                            <img style={isMobile ? {height:"50vh",width:"60vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp3} alt="canvas_image"></img>
                         </Fade>
                     </div>
                 </Fade>
@@ -81,7 +81,7 @@ const Gallery = ()=>{
                 <Fade>
                     <div className="Gallery_palette" style={dynamicRender(data)}>
                         <Fade delay={500}>
-                            <img style={isMobile ? {height:"50vh",width:"50vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp4} alt="canvas_image"></img>
+                            <img style={isMobile ? {height:"50vh",width:"60vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp4} alt="canvas_image"></img>
                         </Fade>
                     </div>
                 </Fade>
@@ -94,7 +94,7 @@ const Gallery = ()=>{
                 <Fade>
                     <div className="Gallery_palette" style={dynamicRender(data)}>
                         <Fade delay={500}>
-                            <img style={isMobile ? {height:"50vh",width:"50vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp5} alt="canvas_image"></img>
+                            <img style={isMobile ? {height:"50vh",width:"60vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp5} alt="canvas_image"></img>
                         </Fade>
                     </div>
                 </Fade>
@@ -107,7 +107,7 @@ const Gallery = ()=>{
                 <Fade>
                     <div className="Gallery_palette" style={dynamicRender(data)}>
                         <Fade delay={500}>
-                            <img style={isMobile ? {height:"50vh",width:"50vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp6} alt="canvas_image"></img>
+                            <img style={isMobile ? {height:"50vh",width:"60vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp6} alt="canvas_image"></img>
                         </Fade>
                     </div>
                 </Fade>
