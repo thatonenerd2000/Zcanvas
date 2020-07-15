@@ -17,7 +17,7 @@ const Gallery = ()=>{
         let style = {}
         if (isMobile){
             style = {
-                backgroundColor:data.vibrant,
+                background:"linear-gradient(to bottom right,"+data.darkVibrant+","+data.vibrant+")",
                 height:'100vh',
                 width:'100vw',
                 display:'inline-block',
@@ -26,7 +26,7 @@ const Gallery = ()=>{
         }
         else{
             style={
-                backgroundColor:data.vibrant,
+                background:"linear-gradient(to bottom right,"+data.darkVibrant+","+data.darkMuted+","+data.vibrant+")",
                 height:'70vh',
                 width:'50vw',
                 display:'inline-block',
@@ -44,6 +44,9 @@ const Gallery = ()=>{
                         <Fade delay={500}>
                             <img style={isMobile ? {height:"50vh",width:"70vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp1} alt="canvas_image"></img>
                         </Fade>
+                        <br></br>
+                        <br></br>
+                        <h6>"Harry Potter"</h6>
                     </div>
                 </Fade>
             )}
@@ -57,6 +60,9 @@ const Gallery = ()=>{
                         <Fade delay={500}>
                             <img style={isMobile ? {height:"50vh",width:"70vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp2} alt="canvas_image"></img>
                         </Fade>
+                        <br></br>
+                        <br></br>
+                        <h6>"Naruto Uzumaki"</h6>
                     </div>
                 </Fade>
             )}
@@ -70,6 +76,9 @@ const Gallery = ()=>{
                         <Fade delay={500}>
                             <img style={isMobile ? {height:"50vh",width:"70vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp3} alt="canvas_image"></img>
                         </Fade>
+                        <br></br>
+                        <br></br>
+                        <h6>"Hinata Hyuga"</h6>
                     </div>
                 </Fade>
             )}
@@ -83,6 +92,9 @@ const Gallery = ()=>{
                         <Fade delay={500}>
                             <img style={isMobile ? {height:"50vh",width:"70vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp4} alt="canvas_image"></img>
                         </Fade>
+                        <br></br>
+                        <br></br>
+                        <h6>"Uraraka Ochako"</h6>
                     </div>
                 </Fade>
             )}
@@ -96,6 +108,9 @@ const Gallery = ()=>{
                         <Fade delay={500}>
                             <img style={isMobile ? {height:"50vh",width:"70vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp5} alt="canvas_image"></img>
                         </Fade>
+                        <br></br>
+                        <br></br>
+                        <h6>"Eddard Stark"</h6>
                     </div>
                 </Fade>
             )}
@@ -109,6 +124,9 @@ const Gallery = ()=>{
                         <Fade delay={500}>
                             <img style={isMobile ? {height:"50vh",width:"70vw"}:{height:"50vh",width:"25vw"}} className="Gallery_canvas" src={temp6} alt="canvas_image"></img>
                         </Fade>
+                        <br></br>
+                        <br></br>
+                        <h6>"Jon Snow"</h6>
                     </div>
                 </Fade>
             )}
