@@ -64,3 +64,25 @@ body{
 .Home_icon:hover .Home_icon_img{
     transform:scale(1.1);
 }
+
+.Gallery_palette{
+    height:70vh;
+    width:50vw;
+    display:inline-block;
+    text-align: center;
+}
+
+.Gallery_canvas{
+    height:50vh;
+    width:25vw;
+    position: relative;
+    top:15%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.Gallery_canvas:hover{
+    transform:scale(1.05)
+}

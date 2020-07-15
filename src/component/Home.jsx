@@ -1,6 +1,7 @@
 import React from 'react'
 import "../css/index.scss"
 import Fade from 'react-reveal/Fade';
+import {Link} from "react-router-dom";
 
 import paletteLogo from "../media/paint.png"
 import painting from "../media/painting.png"
@@ -12,12 +13,10 @@ const Home = () => {
             <div id="Home_main">
                 <Fade down delay={600}>
                     <div style={{zIndex:1}} id="Home_intro">
-                        <h1>Zhilam's Canvas <img src={paletteLogo} alt="paletteLogo" title="Original designer: FreePik" style={{height:"1em"}}></img></h1>
-                        <h3>"A Part, of Art"</h3>
-                        <br></br>
+                        <h1 style={{fontSize:35}}>Zhilam's Canvas <img src={paletteLogo} alt="paletteLogo" title="Original designer: FreePik" style={{height:"1em"}}></img></h1>
+                        <h3 style={{fontSize:20}}>"A Part, of Art"</h3>
                         <hr></hr>
-                        <br></br>
-                        <div className="Home_icon"><img className="Home_icon_img" style={{height:"5vh"}} src={painting} alt="gallery" title="Gallery || Icon designer: Freepik"></img><p>Gallery</p></div>
+                        <div className="Home_icon"><Link to="/gallery"><img className="Home_icon_img" style={{height:"5vh"}} src={painting} alt="gallery" title="Gallery || Icon designer: Freepik"></img></Link><p>Gallery</p></div>
                         <div className="Home_icon"><img className="Home_icon_img" style={{height:"5vh"}} src={about} alt="about" title="About || Icon designer: Prosymbols"></img><p>About</p></div>
                     </div>
                 </Fade>
